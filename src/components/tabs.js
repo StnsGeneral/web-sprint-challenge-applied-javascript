@@ -15,6 +15,7 @@ const Tabs = (topics) => {
   //   <div class="tab">technology</div>
   // </div>
   //
+
   // Instantiating
   const container = document.createElement('div')
 
@@ -51,6 +52,7 @@ const tabsAppender = (selector) => {
       // Appending data
       appendLocation.appendChild(Tabs(res.data.topics))
     })
+    .catch(error => console.log(error))
 }
 
 export {
