@@ -1,8 +1,13 @@
 // DO NOT MAKE CHANGES TO THIS FILE
 // DO NOT MAKE CHANGES TO THIS FILE
 // DO NOT MAKE CHANGES TO THIS FILE
-import { rest } from 'msw'
-import { topics, articles } from './data'
+import {
+  rest
+} from 'msw'
+import {
+  topics,
+  articles
+} from './data'
 
 function getTopics(req, res, ctx) {
   return res(

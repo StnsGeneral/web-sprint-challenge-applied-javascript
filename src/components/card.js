@@ -30,4 +30,7 @@ const cardAppender = (selector) => {
   //
 }
 
-export { Card, cardAppender }
+export {
+  Card,
+  cardAppender
+}
